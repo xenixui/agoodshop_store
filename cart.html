@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agoodshop | Carrito de compra</title>
+    <meta name="author" content="Ksenia Konnova">
+    <meta name="description" content="Descubre los mejores dispositivos móviles, smartphones y accesorios al mejor precio.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+    <header class="header">
+        <div class="flex-container flex-row align-center auto wrap">
+            <a href="index.html">
+                <img src="media/logo.svg" alt="Logo Agoodshop">
+            </a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="link">Tienda</a></li>
+                    <li><a href="index.html" class="link">Soporte</a></li>
+                    <li><a href="mailto:kseniakonnova.ux@gmail.com" class="link button button secondary">Contactar</a>
+                    </li>
+                    <li><a href="cart.html" class="link button button primary icon-only material-symbols-outlined"
+                            title="Carrito" aria-label="Carrito">shopping_bag</a></li>
+                </ul>
+            </nav>
+            <nav class="nav mobile">
+                <ul>
+                    <li><a href="index.html" class="link material-symbols-outlined" title="Tienda"
+                            aria-label="Tienda">home</a></li>
+                    <li><a href="index.html" class="link material-symbols-outlined" title="Soporte"
+                            aria-label="Soporte">help</a></li>
+                    <li><a href="mailto:kseniakonnova.ux@gmail.com"
+                            class="link button button secondary material-symbols-outlined" title="Contactar"
+                            aria-label="Contactar">mail</a></li>
+                    <li><a href="cart.html" class="link button button primary icon-only material-symbols-outlined"
+                            title="Carrito" aria-label="Carrito">shopping_bag</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="section">
+            <div class="flex-container flex-column left">
+                <h1>Carrito de compra</h1>
+                <p>Asegúrate de que todo esté correcto en tu carrito antes de tramitar el pedido.</p>
+                <div class="grid-container">
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Foto</th>
+                                    <th>Producto</th>
+                                    <th>Cantidad</th>
+                                    <th>Precio ud.</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableProducts">
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="flex-container flex-column highlight">
+                        <h3>Resumen del pedido</h3>
+                        <div id="summaryProducts" class="flex-container flex-column">
+                    </div>
+                        <div class="flex-container flex-row auto align-center">
+                            <span><strong>Total:</strong></span>
+                            <span id="totalAmount" class="emphasized"></span>
+                        </div>
+                        <button class="button button primary">Tramitar pedido</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="flex-container flex-row justify-center">
+            <img src="media/copyright_logo.svg" alt="Logo Agoodshop">
+        </div>
+    </footer>
+    <script type="module" src="script/app.js">
+    </script>
+</body>
+
+</html>

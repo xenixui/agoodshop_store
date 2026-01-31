@@ -1,0 +1,132 @@
+:root {
+
+/*======Color======*/
+    
+/*Background*/
+
+    /*Primary*/
+    --bg-primary: hsla(217, 90%, 60%, 1);
+    --bg-primary-hover : hsla(217, 85%, 50%, 1);
+    --bg-primary-active: hsla(217, 80%, 40%, 1);
+    --bg-primary-container: hsla(217, 90%, 95%, 1);
+    
+    /*Error*/
+    --bg-error: hsla(0, 60%, 52%, 1);
+    --bg-error-hover: hsla(0, 60%, 42%, 1);
+    --bg-error-active: hsla(0, 60%, 32%, 1);
+    --bg-error-container: hsla(0, 60%, 94%, 1);
+
+    /*Success*/
+    --bg-success: hsla(142, 65%, 40%, 1);
+    --bg-success-hover: hsla(145, 65%, 30%, 1);
+    --bg-success-active: hsla(145, 65%, 20%, 1);
+    --bg-success-container: hsla(142, 65%, 93%, 1);
+
+    /*Surface*/
+    --bg-surface: hsla(0, 0%, 100%, 1);
+    --bg-surface-variant: hsla(240, 5%, 95%, 1);
+
+/*Text*/
+
+    /*Primary*/
+    --text-primary: hsla(217, 90%, 60%, 1);
+    --text-on-primary: hsla(0, 0%, 100%, 1);
+    --text-on-primary-container: hsla(217, 90%, 15%, 1);
+
+    /*Error*/
+    --text-error: hsla(0, 60%, 52%, 1);
+    --text-on-error: hsla(0, 0%, 100%, 1);
+    --text-on-error-container: hsla(0, 60%, 15%, 1);
+
+    /*Success*/
+    --text-success: hsla(142, 65%, 40%, 1);
+    --text-on-success: hsla(0, 0%, 100%, 1);    
+    --text-on-success-container: hsla(142, 65%, 15%, 1);
+
+    /*Surface*/
+    --text-on-surface: hsla(0, 0%, 15%, 1);
+    --text-on-surface-variant: hsla(0, 0%, 40%, 1);
+
+    /*Outline*/
+    --outline: hsla(0, 0%, 70%, 1);
+    --outline-primary: hsla(217, 90%, 60%, 1);
+    --outline-primary-hover: hsla(217, 85%, 50%, 1);
+    --outline-primary-active: hsla(217, 80%, 40%, 1);
+    --outline-primary-container: hsla(217, 90%, 95%, 1);
+
+/*======Sizing======*/
+
+    /*Border radius*/
+    --border-radius-extra-small: 6px;
+    --border-radius-small: 8px;
+    --border-radius-medium: 12px;
+    --border-radius-large: 16px;
+    --border-radius-full: 1000px;
+
+    /*Border size*/
+    --border-size-small: 1px;
+    --border-size-medium: 2px;
+
+    /*Icon size*/
+    --icon-size-small: 20px;
+
+/*======Spacing======*/
+
+    /*Padding*/
+    --padding-none: 0px;
+    --padding-extra-small: 4px;
+    --padding-small: 8px;
+    --padding-medium: 16px;
+    --padding-large: 24px;
+    --padding-extra-large: 40px;
+
+    /*Margin*/
+    --margin-none: 0px;
+    --margin-extra-small: 4px;
+    --margin-small: 8px;
+    --margin-medium: 16px;
+    --margin-large: 24px;
+    
+    /*Gap*/
+    --gap-extra-small: 4px;
+    --gap-small: 8px;
+    --gap-medium: 16px;
+    --gap-large: 24px;
+    --gap-extra-large: 40px;
+
+/*======Typography======*/
+
+    /*Font family*/
+    --font-family-base: 'Roboto', sans-serif;
+
+    /*Font size*/
+    --font-size-extra-small: 0.875rem;
+    --font-size-small: 1rem;
+    --font-size-medium: 1.375rem;
+    --font-size-large: 2rem;
+    --font-size-extra-large: 2.25rem;
+    --font-size-2-extra-large: 2.75rem;
+
+    /*Font weight*/
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /*Line height*/
+    --line-height-extra-small: 1.25rem;
+    --line-height-small: 1.5rem;
+    --line-height-medium: 1.875rem;
+    --line-height-large: 2.5rem;
+    --line-height-extra-large: 2.75rem;
+    --line-height-2-extra-large: 3.25rem;
+
+/*======Shadow======*/
+    --shadow-small: 0 1px 4px 0px rgba(25, 25, 25, 0.15);
+    --shadow-medium: 0 1px 6px 1px rgba(25, 25, 25, 0.15);
+}
+
+
+
+
+
+
