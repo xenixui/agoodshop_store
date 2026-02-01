@@ -18,7 +18,7 @@ const summaryProducts = document.getElementById("summaryProducts");
 const totalAmount = document.getElementById("totalAmount");
 
 //Enlace a la API
-const URL_API = 'https://api.npoint.io/f6515b2b8819ba33f405';
+const URL_API = 'https://api.npoint.io/f8484f4055d5142b6128';
 
 //Obtiene los datos de productos desde la API
 async function getData() {
